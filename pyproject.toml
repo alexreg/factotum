@@ -1,0 +1,77 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core >= 1.0.0"]
+
+[tool.poetry]
+authors = [
+  "Alexander Regueiro <alex@noldorin.com>",
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Application Frameworks",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Terminals",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+]
+description = "a generic task runner and build tool based on Python scripting"
+documentation = "https://factotum.netlify.app"
+homepage = "https://github.com/alexreg/factotum"
+keywords = ["build-tool", "python", "shell", "task-runner", "terminal"]
+license = "BSD-3-Clause"
+maintainers = [
+  "Alexander Regueiro <alex@noldorin.com>",
+]
+name = "factotum"
+packages = [
+  {include = "factotum"},
+  {include = "factotum_cli"},
+]
+readme = "README.md"
+repository = "https://github.com/alexreg/factotum"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+colorama = "^0.4.6"
+docstring_parser = "^0.15"
+python = "^3.8.1"
+shellingham = "^1.5.0"
+typer-cloup = "^0.10.0"
+varname = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+autoflake = "^2.0.0"
+black = "^22.12.0"
+flake8 = "^6.0.0"
+isort = "^5.11.4"
+mypy = "^0.991"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+pytest-forked = "^1.4.0"
+pytest-sugar = "^0.9.6"
+pytest-xdist = "^3.1.0"
+
+[tool.poetry.scripts]
+fac = "factotum_cli.main:main"
+factotum = "factotum_cli.main:main"
+factotum-script = "factotum_cli.main:script"
+
+[tool.isort]
+profile = "black"
