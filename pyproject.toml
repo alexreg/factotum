@@ -60,7 +60,7 @@ pytest-cov = "^3.0.0"
 pytest-sugar = "^0.9.4"
 pytest-xdist = "^2.1.0"
 mypy = "^0.990"
-flake8 = "^4.0.1"
+flake8 = "^5.0.4"
 isort = "^5.10.1"
 autoflake = "^1.4.0"
 
