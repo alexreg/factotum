@@ -1,0 +1,7 @@
+[run]
+
+source =
+    factotum
+    tests
+
+parallel = True

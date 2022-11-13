@@ -1,0 +1,7 @@
+__pycache__
+.coverage
+.coverage.*
+.pytest_cache
+*.pyc
+coverage.xml
+dist
