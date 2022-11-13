@@ -1,0 +1,6 @@
+[run]
+source =
+  factotum
+  factotum_cli
+  tests
+parallel = True
