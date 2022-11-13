@@ -1,0 +1,17 @@
+[style]
+based_on_style = pep8
+
+blank_lines_between_top_level_imports_and_variables = 2
+column_limit = 1000
+continuation_align_style = valign-right
+continuation_indent_width = 4
+indent_blank_lines = true
+indent_width = 4
+spaces_around_default_or_named_assign = true
+spaces_around_power_operator = true
+spaces_around_subscript_colon = true
+space_between_ending_comma_and_closing_bracket = false
+split_arguments_when_comma_terminated = true
+spaces_before_comment = 1
+split_before_named_assigns = false
+use_tabs = true

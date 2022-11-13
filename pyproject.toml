@@ -1,0 +1,69 @@
+[build-system]
+requires = ["poetry-core >= 1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "factotum"
+version = "0.1.0"
+description = "Generic build tool based on Python scripting"
+license = "BSD-3-Clause"
+authors = [
+    "Alexander Regueiro <alex@noldorin.com>",
+]
+maintainers = [
+    "Alexander Regueiro <alex@noldorin.com>",
+]
+readme = "README.md"
+homepage = "https://github.com/alexreg/factotum"
+repository = "https://github.com/alexreg/factotum"
+documentation = "https://factotum.netlify.app"
+keywords = ["build-tool", "python", "shell", "task-runner", "terminal"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+packages = [
+    {include = "factotum"},
+]
+
+[tool.poetry.dependencies]
+colorama = "^0.4.4"
+docstring_parser = "^0.15"
+python = "^3.7"
+shellingham = "^1.4.0"
+typer-cloup = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+pytest = "^7.1.2"
+pytest-cov = "^4.0.0"
+pytest-sugar = "^0.9.4"
+pytest-xdist = "^2.1.0"
+mypy = "^0.990"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+autoflake = "^1.4.0"
+
+[tool.poetry.scripts]
+fac = "factotum.main:main"
+factotum = "factotum.main:main"
