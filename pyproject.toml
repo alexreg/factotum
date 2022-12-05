@@ -66,7 +66,7 @@ pytest = "^7.2.0"
 pytest-cov = "^4.0.0"
 pytest-forked = "^1.4.0"
 pytest-sugar = "^0.9.6"
-pytest-xdist = "^3.0.2"
+pytest-xdist = "^3.1.0"
 
 [tool.poetry.scripts]
 fac = "factotum_cli.main:main"
