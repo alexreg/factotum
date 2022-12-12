@@ -58,7 +58,7 @@ varname = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 autoflake = "^2.0.0"
-black = "^22.10.0"
+black = "^22.12.0"
 flake8 = "^6.0.0"
 isort = "^5.10.1"
 mypy = "^0.991"
