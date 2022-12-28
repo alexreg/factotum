@@ -386,7 +386,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "typer-cloup"
-version = "0.9.1"
+version = "0.10.0"
 description = "Typer, build great CLIs. Easy to code. Based on Python type hints."
 category = "main"
 optional = false
@@ -426,7 +426,7 @@ all = ["asttokens (>=2.0.0,<3.0.0)", "pure_eval (<1.0.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.1"
-content-hash = "bcf9f514ac61f6a80c4b154e859743a4d2e6743d67af85d68b203c04deb16b44"
+content-hash = "1dc91defe1925e8dfc52b4cea4c4ffa63dd0f77679b3ab8d01c9d7e3221526b4"
 
 [metadata.files]
 attrs = [
@@ -657,8 +657,8 @@ tomli = [
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
 ]
 typer-cloup = [
-    {file = "typer-cloup-0.9.1.tar.gz", hash = "sha256:86c4e9de05a26a16eb8ee17b2f245b3d31d04d40b8809b7c1140f6de1bbd4de5"},
-    {file = "typer_cloup-0.9.1-py3-none-any.whl", hash = "sha256:acf874eba855848a9ed907c044a8d5668e4547da13b0a11491a8f72388e2df40"},
+    {file = "typer-cloup-0.10.0.tar.gz", hash = "sha256:5498bfa3acb73abb62d8297c9e9017c3b961687ecef5278b591d0d34dbae1d9f"},
+    {file = "typer_cloup-0.10.0-py3-none-any.whl", hash = "sha256:3861a4cb1384cd1304b2c57ac5a5e0d046813b1b47e57ff2c55ef97224483787"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.4.0-py3-none-any.whl", hash = "sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e"},
