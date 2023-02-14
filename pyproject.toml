@@ -52,7 +52,7 @@ version = "0.1.0"
 colorama = "^0.4.6"
 docstring_parser = "^0.15"
 python = "^3.8.1"
-shellingham = "^1.5.0"
+shellingham = "^1.5.1"
 typer-cloup = "^0.10.0"
 varname = "^0.10.0"
 
