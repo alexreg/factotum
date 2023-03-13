@@ -57,7 +57,7 @@ typer-cloup = "^0.10.0"
 varname = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
-autoflake = "^2.0.0"
+autoflake = "^2.0.2"
 black = "^22.12.0"
 flake8 = "^6.0.0"
 isort = "^5.11.4"
